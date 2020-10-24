@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    max-width: 1149px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #F9FFF2;
+    background-image: url('../images/MaskGroup.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 40%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+nav ul li:last-of-type a {
+    background-color: #410FF8;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px 15px
+}
+
+header .header-info {
+    align-self: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header .header-info h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+header .header-info p {
+    width: 54%;
+    margin: 0 auto;
+}
+
+header .header-info p span {
+    color: #32BBA4;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+section article {
+    border: 1px solid #ccc;
+    padding: 50px;
+}
+
+section article h2 {
+    font-style: normal;
+    font-weight: normal;
+}
+
+section article p:first-of-type {
+    font-size: 30px;
+    margin: 30px 0 15px 0;
+}
+
+section article p:last-of-type {
+    margin-bottom: 10px;
+}
+
+section article button {
+    background-color: #410FF8;
+    color: #fff;
+    width:100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+section article ul {
+    padding: 0;
+}
+
+section article li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+section article li i {
+    color: purple;
+    margin-right: 10px;
+}
+
+
+.bx-shadow {
+    box-shadow: 0px -1px 29px 7px rgba(65,15,248,.4);
+}
+
+.bg-purple {
+    background-color: #410FF8;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    color: #410FF8;
+}
+
+.text-white {
+    color: white;
+}
